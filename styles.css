@@ -1,0 +1,22 @@
+.title {
+    color:#ffffff;
+    background-color:#000000;
+    padding: 8px;
+}
+
+.square {
+    background-color:#f8daa1;
+    border-color: black;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.background {
+    background-color:#f8ecc9;
+}
+
+.title.subtitle {
+    color: rgb(255, 255, 255);
+    
+
+}
