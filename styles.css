@@ -1,9 +1,75 @@
 
-body {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main {
     background-color: rgba(218, 216, 216, 0.178);
     max-width: 800px;
     margin: auto;
     font-family: 'Quicksand', sans-serif;
+    display: none;
 
 }
 
@@ -45,6 +111,7 @@ img {
     margin: 0 10px;
     box-sizing: content-box;
     padding-left: 1px;
+    justify-content: center;
     
 
 }
