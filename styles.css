@@ -1,75 +1,12 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+body {
+    background-color: rgb(248, 246, 232);
+}
 .main {
-    background-color: rgba(218, 216, 216, 0.178);
     max-width: 800px;
     margin: auto;
     font-family: 'Quicksand', sans-serif;
-    display: none;
+    box-sizing: border-box;
 
 }
 
@@ -79,7 +16,6 @@
     padding-left: 8px;
     padding-bottom: 4px;
     padding-top: 2px;
-    font-family: 'Quicksand', sans-serif;
     margin-top: 12px;
     margin-bottom: 5px;
 }
@@ -90,53 +26,27 @@ img {
 
 .flexbox-container {
     display: flex;
-    justify-content: space-around;
-    flex: 1;
-    max-width: 600px;
-
-}
-
-.ingredients {
-    background-color: rgba(174, 223, 181, 0.562);
-    border-radius: 35px;
-    padding: 18px 10px 10px 10px;
-    width: 400px;
-
+    justify-content: space-evenly;
+    gap: 10px;
 
 }
 
 .flexbox-container .ingredients {
     background-color: rgba(174, 223, 181, 0.562);
     border-radius: 35px;
-    margin: 0 10px;
-    box-sizing: content-box;
-    padding-left: 1px;
-    justify-content: center;
-    
-
-}
-
-.square-title {
-    padding-left: 20px;
-    margin-top: 0px;
-    margin-bottom: 6px;
+    flex-wrap: wrap;
+    padding: 10px 15px 10px 0;
+    margin: 0;
 }
 
 .steps {
     background-color: rgba(223, 203, 174, 0.562);
     border-radius: 25px;
-    margin: 10px;
-    border-radius: 35px;
-    padding: 8px 15px 10px 5px;
-    box-sizing: content-box;
-    align-content: center;
+    padding: 10px;
+
 }
 
-p {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 400px;
-}
-
-ul {
-    margin-top: 1px;
+.square-title {
+    margin: 10px 0 0 25px;
+    padding-left: 0;
 }
